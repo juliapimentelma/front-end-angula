@@ -41,7 +41,17 @@ export class Products {
       nome: 'case sailor moon',
       imagem: '../../imagens/003.png',
       categoria: 'case'
-    }
+    },
+    {
+      nome: 'case costela',
+      imagem: '../../imagens/002.png',
+      categoria: 'case'
+    },
+    {
+      nome: 'case nuvem',
+      imagem: '../../imagens/001.png',
+      categoria: 'case'
+    },
     
   ];
 

@@ -1,31 +1,22 @@
 /* about */
-.cabecalho {
-    text-align: center;
-    font-size: 2.5rem;
-    padding-bottom: 5rem;
-    color: var(--purble);
-    padding: 1rem;
-    margin: 2rem;
-    background: rgba(242, 242, 242, .5);
-}
 
 .sobre .row{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
     padding: 2rem 0;
     padding-bottom: 3rem;
+    width: 100%;
 }
 
 .sobre .row .imagem-container{
     flex: 1 1 40rem;
     position: relative;
 }
-.sobre .row .imagem-container img{
+.sobre .row .imagem-container img {
     width: 100%;
-    border-radius: 1.5rem solid #fff;
-    box-shadow: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     height: 100%;
     object-fit: cover;

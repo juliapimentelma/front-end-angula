@@ -1,5 +1,6 @@
-:root{
+:root {
     --purble:#766DA7;
+    --altura-navbar: 8rem;
 }
 
 *{
@@ -10,23 +11,23 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-rendering: capitalize;
+    text-transform: capitalize;
     transition: .2s linear;
 }
 
 html{ 
     font-size: 62.5%; /* Define o tamanho da fonte padrão para o elemento <html> */
     scroll-behavior: smooth; /* comportamento do scroll */
-    scroll-padding-top: 6rem; /* cabeçalho fixo */
+    scroll-padding-top: 9rem; /* cabeçalho fixo */
     overflow-x: hidden; /* sem scroll na horizontal */
 }
 
-section{
+section {
     padding: 2rem 9%;
 
 }
 
-.btn{
+.btn {
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
@@ -39,4 +40,23 @@ section{
 
 .btn:hover {
     background: var(--purble) ;
+}
+
+.cabecalho {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 5rem;
+    color: var(--purble);
+    padding: 1rem;
+    margin: 2rem;
+    background: rgba(242, 242, 242, .5);
+}
+
+@media (max-width:768px) {
+    
+    html {
+        font-size: 55%;
+    }
+
+    
 }
