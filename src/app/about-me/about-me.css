@@ -1,0 +1,67 @@
+/* about */
+.cabecalho {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 5rem;
+    color: var(--purble);
+    padding: 1rem;
+    margin: 2rem;
+    background: rgba(242, 242, 242, .5);
+}
+
+.sobre .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.sobre .row .imagem-container{
+    flex: 1 1 40rem;
+    position: relative;
+}
+.sobre .row .imagem-container img{
+    width: 100%;
+    border-radius: 1.5rem solid #fff;
+    box-shadow: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .sobre .row .imagem-container h3{
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    color: #fff;
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+
+} */
+
+.sobre .row .conteudo{
+    flex: 1 1 40rem;
+}
+
+.sobre .row .conteudo h3{
+    font-size: 2rem;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.sobre .row .conteudo p{
+    font-size: 1.2rem;
+    color: #999;
+    padding: 5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    align-items: center;
+}

@@ -82,34 +82,3 @@ header .icons a{
 header .icons a:hover{
     color: var(--purble);
 }
-
-.home{
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    background:url('../../imagens/background.png') no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.home .content{
-    max-width: 60rem;
-}
-.home .content h3{
-    font-size: 5rem;
-    color: #716361;
-}
-
-.home .content span{
-    font-size: 3.5rem;
-    color: var(--purble);
-    padding: 1rem 0;
-    line-height: 1.5;
-}
-
-.home .content p{
-    font-size: 1.5rem;
-    color: #716361;
-    padding: 1rem 0;
-    line-height: 1.5;
-}

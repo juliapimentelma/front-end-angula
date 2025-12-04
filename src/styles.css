@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --purble:#766DA7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-rendering: capitalize;
+    transition: .2s linear;
+}
+
+html{ 
+    font-size: 62.5%; /* Define o tamanho da fonte padrão para o elemento <html> */
+    scroll-behavior: smooth; /* comportamento do scroll */
+    scroll-padding-top: 6rem; /* cabeçalho fixo */
+    overflow-x: hidden; /* sem scroll na horizontal */
+}
