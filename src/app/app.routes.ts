@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { HomePage } from './home-page/home-page';
-import { Products } from './products/products'; // A classe que você criou
+import { Products } from './products/products'; 
 import { AboutMe } from './about-me/about-me';
 import { Contact } from './contact/contact';
 

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url('imagens/background.png') no-repeat;
+    background:url('../../imagens/background.png') no-repeat;
     background-size: cover;
     background-position: center;
 }

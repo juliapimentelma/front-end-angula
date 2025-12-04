@@ -59,6 +59,7 @@
 
 .sobre .row .conteudo p{
     font-size: 1.2rem;
+    text-align: justify;
     color: #999;
     padding: 5rem;
     padding-top: .5rem;
