@@ -1,25 +1,11 @@
-<header>
-    <a href="#" class="logo">churamicas<span>.</span></a>
-    <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#sobre">sobre</a>
-        <a href="#produtos">produtos</a>
-        <a href="#contato">contato</a>
-    </nav>
-    <div class="icons">
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
-        <a href="#" class="fas fa-user"></a>
-    </div>
-</header>
 <!-- aba produtos -->
- <section class="produtos" id="produtos">
+<section class="produtos" id="produtos" *ngIf="listaProdutos?.length">
     <h1 class="cabecalho">minhas coisinhas</h1>
     <div class="box-container">
-        <div class="box">
-            <span class="nome">case</span>
+        <div class="box" *ngFor="let produto of listaProdutos">
+            <span class="nome">{{ produto.categoria }}</span>
             <div class="imagem">
-                <img src="../../imagens/001.png" alt="">
+                <img [src]="produto.imagem" [alt]="produto.nome">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="fas fa-plus"></a>
@@ -27,38 +13,8 @@
                 </div>
             </div>
             <div class="conteudo">
-                <h3>case nuvem</h3>
-            </div>
-        </div>
-        <!-- ---------------------- -->
-        <div class="box">
-            <span class="nome">case</span>
-            <div class="imagem">
-                <img src="../../imagens/002.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-plus"></a>
-                    <a href="#" class="fas fa-share"></a>
-                </div>
-            </div>
-            <div class="conteudo">
-                <h3>case costela</h3>
-            </div>
-        </div>
-        <!-- ---------------------- -->
-        <div class="box">
-            <span class="nome">case</span>
-            <div class="imagem">
-                <img src="../../imagens/003.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-plus"></a>
-                    <a href="#" class="fas fa-share"></a>
-                </div>
-            </div>
-            <div class="conteudo">
-                <h3>case sailor moon</h3>
+                <h3>{{ produto.nome }}</h3>
             </div>
         </div>
     </div>
- </section>
+</section>

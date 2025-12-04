@@ -1,14 +1,17 @@
+<!-- header -->
 <header>
-    <a href="#" class="logo">churamicas<span>.</span></a>
+    <a routerLink="/" class="logo">churamicas<span>.</span></a>
+
     <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#sobre">sobre</a>
-        <a href="#produtos">produtos</a>
-        <a href="#contato">contato</a>
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">home</a>
+        <a routerLink="/sobre" routerLinkActive="active">sobre</a>
+        <a routerLink="/produtos" routerLinkActive="active">produtos</a>
+        <a routerLink="/contato" routerLinkActive="active">contato</a>
     </nav>
+
     <div class="icons">
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
-        <a href="#" class="fas fa-user"></a>
+        <div class="fas fa-heart"></div>
+        <div class="fas fa-shopping-cart"></div>
+        <a routerLink="/perfil" class="fas fa-user"></a>
     </div>
 </header>
