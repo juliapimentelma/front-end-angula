@@ -35,6 +35,7 @@ header .icons a{
     font-size: 2.5rem;
     color: #716361;
     margin-left: 1.5rem;
+    cursor: pointer;
 }
 
 header .icons a:hover{

@@ -70,3 +70,9 @@
     font-size: 2.5rem;
     color: #333;
 }
+
+.produtos span {
+    color: var(--purble);
+    padding: 1rem 0;
+    line-height: 1.5;
+}

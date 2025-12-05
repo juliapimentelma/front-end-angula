@@ -1,6 +1,6 @@
 <!-- aba produtos -->
 <section class="produtos" id="produtos" *ngIf="listaProdutos.length">
-    <h1 class="cabecalho">minhas coisinhas</h1>
+    <h1 class="cabecalho">minhas <span>coisinhas</span></h1>
     <div class="box-container">
         <div class="box" *ngFor="let produto of listaProdutos">
             <span class="nome">{{ produto.categoria }}</span>
